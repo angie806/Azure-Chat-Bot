@@ -1,0 +1,57 @@
+ul {
+  margin-bottom: 3px !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f2f3f3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.chat__button {
+  margin-top: 7px;
+}
+
+.chat__button_scroll {
+  width: 6%;
+  height: 65px;
+  float: left;
+}
+
+.chat__button_scrollImage {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.btn-toolbar {
+  width: 88%;
+  height: 65px;
+  padding-left: 10px;
+  overflow: auto;
+  white-space:nowrap;
+  display: block;
+  float: left;
+}
+
+.btn-toolbar::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-toolbar > .chat__button {
+  
+  display: inline-block;
+  vertical-align:top;
+  margin-right:20px;
+  white-space:normal;
+}
